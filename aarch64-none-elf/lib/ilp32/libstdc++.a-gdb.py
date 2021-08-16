@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/tmp/dgboter/bbs/build02--cen7x86_64/buildbot/cen7x86_64--aarch64-none-elf/build/build-aarch64-none-elf/install/share/gcc-10.2.1/python'
-libdir = '/tmp/dgboter/bbs/build02--cen7x86_64/buildbot/cen7x86_64--aarch64-none-elf/build/build-aarch64-none-elf/install/aarch64-none-elf/lib/ilp32'
+pythondir = '/data/jenkins/workspace/GNU-toolchain/arm-10/build-aarch64-none-elf/install/share/gcc-10.3.1/python'
+libdir = '/data/jenkins/workspace/GNU-toolchain/arm-10/build-aarch64-none-elf/install/aarch64-none-elf/lib/ilp32'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't
